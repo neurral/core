@@ -1,4 +1,13 @@
+html{
+  display: flex;
+  flex: 1;
+  height: 100vh;
+}
+
 body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
   background-color: #f2f2f2;
   font-family: "Lato";
   font-weight: 300;
@@ -66,11 +75,19 @@ hr {
 
 #navigation {
   background-color: #FFD301;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.fullpage-sections {
+  display: flex;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 #headerwrap {
+  flex:1;
   background-color: #444;
-  padding-top: 60px;
 }
 
 #headerwrap h1 {
@@ -107,49 +124,14 @@ hr {
   font-size: 16px;
 }
 
-#resources i {
-  font-size: 48px;
-}
-
-#intro {
-  padding-top: 50px;
-  border-top: #bdc3c7 solid 5px;
-}
-
-#features {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#features .ac a {
-  font-size: 20px;
-}
-
-#footerwrap {
-  background-color: #2f2f2f;
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  text-align: left;
-}
-
-#footerwrap h3 {
-  font-size: 28px;
-  color: white;
-}
-
-#footerwrap p {
-  color: white;
-  font-size: 18px;
-}
-
-#c {
+footer#c {
+  height: 10vh;
   background: #222222;
   padding-top: 15px;
   text-align: right;
 }
 
-#c p {
+footer#c p {
   color: white
 }
 
